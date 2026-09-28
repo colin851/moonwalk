@@ -1,1 +1,21 @@
-{"name":"moonwalk","version":"1.0.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"vue":"^3.5.22","three":"^0.180.0"},"devDependencies":{"vite":"^7.1.7","@vitejs/plugin-vue":"^6.0.1"}}
+{
+  "name": "moonwalk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "format": "prettier --write src index.html vite.config.js package.json .prettierrc.json public/favicon.svg",
+    "format:check": "prettier --check src index.html vite.config.js package.json .prettierrc.json public/favicon.svg"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "prettier": "3.9.9",
+    "vite": "^7.1.7"
+  }
+}
